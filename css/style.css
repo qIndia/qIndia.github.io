@@ -22,6 +22,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
+    background-color: black;
 }
 
 h1 {
@@ -221,15 +222,16 @@ Home sections
 /* --- section bg var --- */
 
 .bg-white {
-	background: #fff;
+	background: black;
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: black;
 }
 
 .bg-dark {
-	background: #575757;
+	background: black
+        ;
 }
 
 
@@ -241,7 +243,7 @@ Home sections
 
 
 .color-light p {
-	color: #eee;
+	color: white;
 }
 
 
@@ -396,7 +398,7 @@ Intro
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: white;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #00c1c1;
@@ -411,6 +413,7 @@ Intro
 /* ================================
 About
 ================================= */
+
 
 #about .about-img {
   height: 350px;
@@ -433,14 +436,15 @@ About
 }
 
 #about .content h2 {
-  color: #333;
+  color: navajowhite;
   font-weight: 300;
   font-size: 24px;
   text-align: left;
+  font-family: "Brush Script mt","Lucida handwriting" cursive;
 }
 
 #about .content h3 {
-  color: #777;
+  color: white;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -451,6 +455,7 @@ About
 #about .content p {
   line-height: 26px;
   text-align: left;
+    color: lightyellow;
 }
 
 #about .content p:last-child {
@@ -490,6 +495,7 @@ Services
 	margin-left: auto;
 	padding-left: 4px;
 	width: 400px;
+    height: 300px;
 }
 
 .service .carousel-indicators {
