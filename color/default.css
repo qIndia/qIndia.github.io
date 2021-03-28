@@ -21,7 +21,7 @@ a, a:hover {
 }
 
 .navbar-default {
-  background: #00c1c1;
+  background: black;
 }
 
 .form-control:focus {
@@ -41,3 +41,4 @@ a, a:hover {
 .contact-widget i {
   color: #00c1c1;
 }
+
