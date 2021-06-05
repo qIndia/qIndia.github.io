@@ -12,6 +12,18 @@ Imports
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
 @import url('animate.css');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Press+Start+2P&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Forum&family=Press+Start+2P&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Forum&family=Press+Start+2P&family=Slabo+27px&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Forum&family=Nunito:wght@200&family=Press+Start+2P&family=Slabo+27px&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 /* ================================
 General
@@ -22,12 +34,12 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	line-height: 1.6em;
-    
+
 }
 
 h1 {
 	font-size:80px;
-    
+
 }
 h2 {
 	font-size: 32px;
@@ -318,18 +330,37 @@ Intro
   text-align: center;
 }
 
+#intro h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 400;
+	font-family: 'Playfair Display',serif;
+	class="animated fadeInDown"
+}
+
 #intro h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 400;
+	font-family: 'Monoton', cursive ;
+	class="animated fadeInDown";
+}
+#intro h3 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 70px;
+  font-weight: 400;
+	font-family: 'impact', cursive ;
+	class="animated fadeInDown";
 }
 
 #intro p {
   width: 70%;
   -webkit-animation-delay: 0.4s;
   line-height: 1em;
-  
+
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
@@ -475,8 +506,11 @@ Team
 .box-team img {
 	margin-bottom: 30px;
 }
-
-
+ .wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,285px);
+	align-content;
+	}
 
 /* ================================
 Services
@@ -912,7 +946,7 @@ more media queries
     bottom: 0;
     left: 150%;
     right: 0;
-    
+
 }
 .img{
     border-radius: 50%;
@@ -930,7 +964,7 @@ blockquote {
 .image1{
     border-radius: 50%;
     max-width: 40%;
-    
+
 }
 .testimonial{
     background: #fff;
@@ -950,22 +984,22 @@ blockquote {
 
 
 
-/**.text-wrapper {  
-	float: left; 
-	width: 50%; 
-} 
-.text-wrapper img { 
-	width: 100%; 
-} 
-.text-wrapper p { 
-	text-align: center; 
-} 
-@media (max-width: 767px) { 
-	.text-wrapper { 
-		float: none; 
-		width: 100%; 
+/**.text-wrapper {
+	float: left;
+	width: 50%;
+}
+.text-wrapper img {
+	width: 100%;
+}
+.text-wrapper p {
+	text-align: center;
+}
+@media (max-width: 767px) {
+	.text-wrapper {
+		float: none;
+		width: 100%;
 
-	} 
+	}
 } **/
 
 
@@ -981,15 +1015,15 @@ blockquote {
     width: 100%;
     display: block;
   }
-    
+
 
 @media (max-width: 650px) {
   .team2 {
     width: 100%;
     display: block;
-  } 
-   
-    
+  }
+
+
 }
    .quotation{
   font-size: 30px;
@@ -1028,5 +1062,3 @@ footer{
   font-style: italic;
     color: black;
 }
-    
-    
