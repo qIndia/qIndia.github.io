@@ -330,6 +330,7 @@ Intro
   text-align: center;
 }
 
+
 #intro h1 {
   color: #fff;
   margin-bottom: 30px;
@@ -355,7 +356,9 @@ Intro
 	font-family: 'impact', cursive ;
 	class="animated fadeInDown";
 }
-
+#intro span.myRedQ{
+	color: red;
+}
 #intro p {
   width: 70%;
   -webkit-animation-delay: 0.4s;
